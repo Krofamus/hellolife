@@ -1,2 +1,8 @@
-print = 'hello world'
+msg = 'Olá, Mundoo!'
+print(msg)
 
+print('Olá mundo')
+
+print(7, 'b')
+
+print(777 + 999)
