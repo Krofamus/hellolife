@@ -6,3 +6,27 @@ print('Olá mundo')
 print(7, 'b')
 
 print(777 + 999)
+
+------------------------------------------------
+
+n = float(input('Digite um número: '))
+do = n * 2
+tri = n * 3
+raiz = n ** (1/2)
+
+print(f'O número é {n}, o dobro é {do:.2f}, o triplo é {tri:.2f}.')
+print(f'a raiz quadrada é {raiz:.2f}.')
+
+n = float(input('Digite um número: '))
+
+print(f'O dobro de {n} é {n * 2:.2f}\no triplo {n:.2f} é {n * 3}')
+print(f'e a raiz quadrada de {n} é {n ** (1/2):.2f}.')
+
+---------------------------------------------
+
+nota1 = float(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
+media = (nota1 + nota2) / 2
+
+print(f'A média entre\n{nota1:.1f} e {nota2:.1f}', end=' -> ')
+print(f'é igual a {media:.1f}.')
